@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bfc</title>
+    <style>
+        /* BFC创建
+        overflow:hidden
+        display 换别的
+        position:absoluute, relative
+        float */
+
+        span{
+            /* 手动创建bfc */
+            /* display: inline-block; 方法（1） */
+            /* float: left; 方法 （2） */
+            width: 200px;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <span>抓娃娃</span>
+</body>
+</html>
